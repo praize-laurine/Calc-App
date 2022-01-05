@@ -24,6 +24,7 @@ class App extends Component {
 
   render() {
     return (
+      
       <div className="app">
         <div className="calc-wrapper">
           <Input input={this.state.input} />
@@ -53,7 +54,7 @@ class App extends Component {
           </div>
           <div className="row">
             <ClearButton handleClear={() => this.setState({ input: "" })}>
-              Clear
+              Delete
             </ClearButton>
           </div>
         </div>

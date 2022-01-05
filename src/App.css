@@ -4,14 +4,20 @@
   align-items: center;
   height: 100vh;
   width: 100%;
+  background-color: #888;
 }
 
 .calc-wrapper {
   width: 400px;
   height: 600px;
+  color: green;
 }
 
 .row {
   display: flex;
   width: 100%;
+}
+
+.title{
+  color: aqua;
 }
